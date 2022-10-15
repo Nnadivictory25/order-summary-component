@@ -7,6 +7,7 @@
 }
 
 body {
+  position: relative;
   background: url("./images/pattern-background-desktop.svg") no-repeat;
   background-size: cover;
   font-family: "Red Hat Display", sans-serif;
@@ -18,7 +19,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
   width: 100%;
   padding: 10px;
 }
@@ -30,7 +30,8 @@ body {
   max-height: 530px;
   border-radius: 20px;
   margin: auto auto;
-  margin-top: 85px;
+  margin-top: 35px;
+  margin-bottom: 50px;
   box-shadow: 0 3rem 5rem rgb(0 0 0 / 30%);
 }
 
@@ -134,7 +135,6 @@ section.paymentBtn {
 /* footer */
 footer {
   position: absolute;
-  margin-top: 10px;
   bottom: 6px;
   left: 10px;
   align-items: center;
