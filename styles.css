@@ -7,13 +7,11 @@
 }
 
 body {
-  height: 100vh;
-  width: 100%;
   background: url("./images/pattern-background-desktop.svg") no-repeat;
   background-size: cover;
   font-family: "Red Hat Display", sans-serif;
   font-size: 1rem;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .cardBg {
@@ -26,14 +24,17 @@ body {
 
 #mainContainer {
   background-color: #f3f3f3;
-  width: 400px;
+  width: 95%;
+  max-width: 400px;
   height: 530px;
   border-radius: 20px;
+  margin: auto auto;
+  margin-top: 85px;
   box-shadow: 0 3rem 5rem rgb(0 0 0 / 30%);
 }
 
 .image-cont {
-  width: 400px;
+  width: 100%;
 }
 
 .image-cont img {
@@ -102,7 +103,7 @@ section.paymentBtn {
 }
 
 .paymentBtn button {
-  padding: 12px 90px;
+  padding: 15px 90px;
   border-radius: 10px;
   background-color: hsl(245, 75%, 52%);
   color: #f3f3f3;
@@ -111,6 +112,7 @@ section.paymentBtn {
   cursor: pointer;
   box-shadow: 0 3rem 10rem rgb(0 0 0 / 30%);
   margin-bottom: 10px;
+  transition: all 200ms ease-in-out;
 }
 
 .paymentBtn button:hover {
@@ -131,19 +133,16 @@ section.paymentBtn {
 /* footer */
 footer {
   position: absolute;
-  bottom: 20px;
+  margin-top: 60px;
+  bottom: 3px;
   left: 10px;
+  align-items: center;
+  width: 100%;
+  right: 0;
 }
 
-@media (max-width: 500px) and (orientation: portrait) {
-  #mainContainer {
-    width: 350px;
-    height: 500px;
-  }
 
-  .image-cont {
-    width: 350px;
-  }
+@media (max-width: 500px) and (orientation: portrait) {
 
   .paymentBtn button {
     padding: 10px 70px;
@@ -155,14 +154,6 @@ footer {
 }
 
 @media (max-width: 360px) {
-  #mainContainer {
-    width: 320px;
-    height: 480px;
-  }
-
-  .image-cont {
-    width: 320px;
-  }
 
   .paymentBtn button {
     padding: 10px 40px;
