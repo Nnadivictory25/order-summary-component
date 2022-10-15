@@ -93,6 +93,7 @@ div.togglePlan a {
 
 div.togglePlan a:hover {
   color: hsl(224, 23%, 55%);
+  text-decoration: none;
 }
 
 section.paymentBtn {
