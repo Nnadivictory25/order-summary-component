@@ -134,12 +134,14 @@ section.paymentBtn {
 /* footer */
 footer {
   position: absolute;
-  bottom: -100px;
+  bottom: 6px;
   left: 10px;
 }
 
-
 @media (max-width: 500px) and (orientation: portrait) {
+  footer {
+    bottom: -100px;
+  }
 
   .paymentBtn button {
     padding: 10px 70px;
@@ -151,7 +153,6 @@ footer {
 }
 
 @media (max-width: 360px) {
-
   .paymentBtn button {
     padding: 10px 40px;
   }
