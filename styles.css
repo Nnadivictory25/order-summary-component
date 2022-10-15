@@ -7,12 +7,12 @@
 }
 
 body {
-  position: relative;
   background: url("./images/pattern-background-desktop.svg") no-repeat;
   background-size: cover;
   font-family: "Red Hat Display", sans-serif;
   font-size: 1rem;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .cardBg {
@@ -29,9 +29,8 @@ body {
   max-width: 400px;
   max-height: 530px;
   border-radius: 20px;
-  margin: auto auto;
-  margin-top: 35px;
-  margin-bottom: 50px;
+  margin: 0 auto;
+  margin-top: 70px;
   box-shadow: 0 3rem 5rem rgb(0 0 0 / 30%);
 }
 
@@ -135,9 +134,8 @@ section.paymentBtn {
 /* footer */
 footer {
   position: absolute;
-  bottom: 6px;
+  bottom: -100px;
   left: 10px;
-  align-items: center;
 }
 
 
