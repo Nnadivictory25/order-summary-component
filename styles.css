@@ -20,13 +20,14 @@ body {
   align-items: center;
   height: 100%;
   width: 100%;
+  padding: 10px;
 }
 
 #mainContainer {
   background-color: #f3f3f3;
-  width: 95%;
+  width: 100%;
   max-width: 400px;
-  height: 530px;
+  max-height: 530px;
   border-radius: 20px;
   margin: auto auto;
   margin-top: 85px;
@@ -132,7 +133,7 @@ section.paymentBtn {
 
 /* footer */
 footer {
-  /* position: absolute; */
+  position: absolute;
   margin-top: 10px;
   bottom: 6px;
   left: 10px;
