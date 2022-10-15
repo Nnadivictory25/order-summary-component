@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: url("./images/pattern-background-desktop.svg") no-repeat;
+  background-size: cover;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1rem;
+  overflow: hidden;
+}
+
+.cardBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+#mainContainer {
+  background-color: #f3f3f3;
+  width: 400px;
+  height: 530px;
+  border-radius: 20px;
+  box-shadow: 0 3rem 5rem rgb(0 0 0 / 30%);
+}
+
+.image-cont {
+  width: 400px;
+}
+
+.image-cont img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+}
+
+div.content {
+  padding: 20px 40px;
+}
+
+.textContent {
+  text-align: center;
+}
+
+.textContent h3 {
+  padding: 10px 0px;
+  font-size: 25px;
+  color: hsl(223, 47%, 23%);
+}
+
+.textContent p {
+  color: hsl(224, 23%, 55%);
+}
+
+section.pricing {
+  transition: all 1s ease-in-out;
+}
+
+div.music-cont {
+  display: flex;
+}
+
+.music-cont img {
+  margin-right: 20px;
+}
+
+.pricing {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.annual {
+  font-weight: bold;
+}
+
+.year {
+  color: hsl(224, 23%, 55%);
+}
+
+div.togglePlan a {
+  color: hsl(245, 75%, 52%);
+}
+
+div.togglePlan a:hover {
+  color: hsl(224, 23%, 55%);
+}
+
+section.paymentBtn {
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.paymentBtn button {
+  padding: 12px 90px;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  color: #f3f3f3;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 3rem 10rem rgb(0 0 0 / 30%);
+  margin-bottom: 10px;
+}
+
+.paymentBtn button:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+
+.paymentBtn p {
+  color: hsl(224, 23%, 55%);
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.paymentBtn p:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+/* footer */
+footer {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}
+
+@media (max-width: 500px) and (orientation: portrait) {
+  #mainContainer {
+    width: 350px;
+    height: 500px;
+  }
+
+  .image-cont {
+    width: 350px;
+  }
+
+  .paymentBtn button {
+    padding: 10px 70px;
+  }
+
+  div.content {
+    padding: 10px 40px;
+  }
+}
+
+@media (max-width: 360px) {
+  #mainContainer {
+    width: 320px;
+    height: 480px;
+  }
+
+  .image-cont {
+    width: 320px;
+  }
+
+  .paymentBtn button {
+    padding: 10px 40px;
+  }
+
+  div.content {
+    padding: 10px 40px;
+  }
+}
