@@ -132,7 +132,7 @@ section.paymentBtn {
 
 /* footer */
 footer {
-  position: absolute;
+  /* position: absolute; */
   margin-top: 10px;
   bottom: 6px;
   left: 10px;
